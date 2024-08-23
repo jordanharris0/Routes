@@ -1,13 +1,16 @@
 import { useState } from "react";
 import "./App.css";
+import Nav from "./components/Navbar";
+import Main from "./components/MainSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <div id="container">
-        <h1>Hello React Router!</h1>
-        <div id="navbar">{/* navigation here */}</div>
-        <div id="main-section">{/* routes here */}</div>
+        <Nav />
+        <Main />
+        <Footer />
       </div>
     </>
   );
